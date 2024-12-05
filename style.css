@@ -1,0 +1,39 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding: 10px 15px 10px 15px;
+}
+
+li:hover {
+    background-color: #575757;
+}
+
+.start {
+    border-radius: 5px 0 0 5px;
+    background-color: #333;
+}
+
+.middle {
+    background-color: #333;
+}
+
+.ends {
+    border-radius: 0 5px 5px 0;
+    background-color: #333;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.nav-bar a {
+    text-decoration: none;    
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
